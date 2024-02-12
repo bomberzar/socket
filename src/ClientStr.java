@@ -59,6 +59,7 @@ public class ClientStr {
 
         cliente.conneti();
         cliente.comunica();
+        //completato client
     }
 
 

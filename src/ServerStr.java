@@ -48,5 +48,6 @@ public class ServerStr {
 
         servente.attendi();
         servente.comunica();
+        //completato server
     }
 }
