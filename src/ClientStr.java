@@ -54,6 +54,12 @@ public class ClientStr {
         }
 
     }
+    public static void main(String[] args) throws IOException {
+        ClientStr cliente = new ClientStr();
+
+        cliente.conneti();
+        cliente.comunica();
+    }
 
 
 }

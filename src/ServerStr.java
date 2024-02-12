@@ -42,4 +42,11 @@ public class ServerStr {
         System.out.println("9 SERVER: fine elaborazione .... buoma notte!");
         this.client.close();
     }
+
+    public static void main(String[] args) throws IOException {
+        ServerStr servente = new ServerStr();
+
+        servente.attendi();
+        servente.comunica();
+    }
 }
